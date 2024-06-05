@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Monster">
+    <Position X="2.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAABAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Monster.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wall">
+    <Position X="2.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAABAAQAAAAAAAAEAAA=</HashCode>
+      <FileName>Monster.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Empty">
+    <Position X="6.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAIAAAAAAAABAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Monster.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scary">
+    <Position X="0.5" Y="11.5" Width="1.5" />
+    <InheritanceLine Type="Monster">
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="0.104" Y="0.104" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAACAAAAAFAAAAAABAACAAAAQAAAGAAk=</HashCode>
+      <FileName>Monster.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="printer" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Heal">
+    <Position X="4.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAABAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Monster.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player">
+    <Position X="4.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgMAAQAAAAgAAUCAAAAAUIAAAAAAQAAIYAAAAyACAAA=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Map">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAABAIAAQAQAABAAAAAAAAhAAoAAAyAEBMAIM=</HashCode>
+      <FileName>Map.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="prikol" />
+    </ShowAsAssociation>
+  </Class>
+  <Struct Name="Printer">
+    <Position X="9.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAgAAAAQAAAAAAAACgABAoAAAAAAAQQQAAA=</HashCode>
+      <FileName>printer.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Field">
+    <Position X="2.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAEAAAACAAAAAAAAAAAAAAAAAAAIAgAA=</HashCode>
+      <FileName>Map.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="monster" />
+    </ShowAsAssociation>
+  </Struct>
+  <Struct Name="Game">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <AssociationLine Name="player" Type="Player">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.305" Y="0.11" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>CEAgIAEAAAAAAAAgAAAAAAAAAAgAAAABAAAAAAAAAAE=</HashCode>
+      <FileName>Game.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="player" />
+      <Field Name="printer" />
+    </ShowAsAssociation>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

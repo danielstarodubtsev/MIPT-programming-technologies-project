@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/main.dir/main.cpp.o -o main  game/libgame.a map/libmap.a monster/libmonster.a monster_factory/libmonster_factory.a player/libplayer.a 

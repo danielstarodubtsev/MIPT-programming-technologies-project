@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmonster_factory.a CMakeFiles/monster_factory.dir/monster_factory.cpp.o
+/usr/bin/ranlib libmonster_factory.a
